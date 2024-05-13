@@ -1,0 +1,60 @@
+body {
+    background-color: #374151; /*Временно*/
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+header a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 18px;
+}
+
+.logoIcon {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+input {
+    background-color: rgba(31, 41, 55, 0.6);
+}
+
+.themedate {
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 24px;
+    line-height: 38px;
+}
+
+.authorAvatar {
+    width: 50px;
+    height: 50px;
+}
+
+.authorName {
+    line-height: 28px;
+}
+
+.authorProfession {
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.firstText {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.defaultText {
+    line-height: 30px;
+}
+
+footer {
+    line-height: 28px;
+}

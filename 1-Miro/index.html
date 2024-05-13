@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Miro</title>
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
     <header>
@@ -30,21 +31,25 @@
     <main>
         <section>
             <h1>Место для командной работы</h1>
-            <p>Интерактивная онлайн-доска для совместной работы команд — в любое время, в любом месте.</p>
-            <form action="/register" method="get"></form>
+            <p class="heroText">Интерактивная онлайн-доска для совместной работы команд — в любое время, в любом месте.</p>
+            <form action="/register" method="get" class="heroForm">
+                <input type="email" name="email" id="email">
+                <button id="heroButton">Начать бесплатно</button>
+            </form>
+            <p>Всегда бесплатно — кредитная карта не нужна</p>
             <img src="./images/hero.png" alt="Изображение экрана работы Miro">
         </section>
         <section>
             <h2>Работайте вместе, где бы вы ни находились</h2>
-            <p>Работая в офисе, удалённо или в гибридном формате, с Miro ваша команда может общаться, сотрудничать и совместно заниматься творчеством в одном пространстве, из любой точки мира.</p>
-            <a href="#">Узнать больше</a>
+            <p class="sectionText">Работая в офисе, удалённо или в гибридном формате, с Miro ваша команда может общаться, сотрудничать и совместно заниматься творчеством в одном пространстве, из любой точки мира.</p>
+            <a href="#" class="link">Узнать больше</a>
             <img src="./images/IMAGE1.png" alt="Работа в Miro с мобильных устройств">
         </section>
         <section>
             <img src="./images/IMAGE2.png" alt="Сервисы вокруг Miro ">
             <h2>Закройте лишние вкладки — всё уже здесь</h2>
-            <p>Редактируете ли вы документы в Google Docs, работаете над задачами в Jira или созваниваетесь в Zoom, Miro предлагает более 100 интеграций с уже известными и полюбившимися вам инструментами.</p>
-            <a href="#">Узнать больше</a>
+            <p class="sectionText">Редактируете ли вы документы в Google Docs, работаете над задачами в Jira или созваниваетесь в Zoom, Miro предлагает более 100 интеграций с уже известными и полюбившимися вам инструментами.</p>
+            <a href="#" class="link">Узнать больше</a>
         </section>
         <!-- <section>
             <table>
