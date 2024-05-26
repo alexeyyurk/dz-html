@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+</head>
+<body>
+    <form action="/test">
+        <input type="hidden" name="hid" value="1">
+        <div>
+            <label for="email">Введите Email</label>
+            <input 
+                type="email" 
+                placeholder="Email" 
+                id="email" 
+                name="email" 
+                value="no@email.ru" 
+                required title="Нужно ввести запрос"
+            />
+        </div>
+        <div>
+            <label for="password">Введите пароль</label>
+            <input 
+                type="password" 
+                placeholder="Пароль" 
+                id="password" 
+                name="password"
+                minlength="5"
+                maxlength="8"
+            />
+        </div>
+        <div>
+            <label for="birthDate">Введите дату рождения</label>
+            <input type="date" placeholder="Дата рождения" id="birthDate" name="birthDate" />
+        </div>
+        <div>
+            <label for="color">Выберите цвет</label>
+            <input type="color" id="color" name="color" />
+        </div>
+        <label>
+            <span>Число</span>
+            <input type="number" />
+        </label>
+        <div>
+            <label for="agree">Согласен с обработкой данных</label>
+            <input type="checkbox" name="agree" id="agree" checked>
+        </div>
+        <div>
+            <label for="all">Искать везде</label>
+            <input type="radio" name="search" id="all" value="all">
+        </div>
+        <div>
+            <label for="youtube">Искать на Youtube</label>
+            <input type="radio" name="search" id="youtube" value="youtube">
+        </div>
+        <div>
+            <label for="topic">Тематика:</label>
+            <select name="topic" id="topic">
+                <option value="1">Все</option>
+                <optgroup label="Популярные">
+                    <option value="2">Животные</option>
+                    <option value="3" selected>Разработка</option>
+                </optgroup>
+                <optgroup label="Популярные">
+                    <option value="2">Животные</option>
+                    <option value="3" selected>Разработка</option>
+                </optgroup>
+            </select>
+        </div>
+        <div>
+            <label for="volume">Громкость</label>
+            <input type="range" name="volume" id="volume" min="0" max="98" step="5" />
+        </div>
+        <div>
+            <label for="text">Комментарий</label>
+            <textarea name="text" id="text" rows="4" cols="20" placeholder="Текст"></textarea>
+        </div>
+        <button type="submit">Кнопка</button>
+    </form>
+    <form action="https://www.youtube.com/results">
+        <input type="text" placeholder="Введите запрос" name="search_query" />
+        <button type="submit">Найти</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,62 @@
+main {
+    background-color: #FFFEFE;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Open sans', sans-serif;
+    color: #333333;
+}
+
+span {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Open sans', sans-serif;
+    color: #666666;
+}
+
+a {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Open sans', sans-serif;
+    color: #089FE0;
+}
+
+input {
+    background-color: #F5F5F5;
+    color: #333333;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Open sans', sans-serif;
+}
+
+input::placeholder {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    font-family: 'Open sans', sans-serif;
+    color: #999999;
+}
+
+button {
+    background-color: #089FE0;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Open sans', sans-serif;
+}
+
+div label {
+    color: #666666;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open sans', sans-serif;
+}
+
+div a {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open sans', sans-serif;
+    color: #089FE0;
+}

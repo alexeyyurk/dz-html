@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <main>
+            <form action="#">
+                <h1>Регистрация</h1>
+                <p>Уже есть аккаунт? <a href="#">Войти</a></p>
+                <div>
+                <label for="mycompany"></label>
+                    <input 
+                        type="text" 
+                        name="mycompany" 
+                        id="mycompany"
+                        placeholder="Моя компания"
+                        required
+                    />
+                </div>
+                <div>
+                    <label for="firstname"></label>
+                    <input 
+                        type="text" 
+                        name="firstname" 
+                        id="firstname"
+                        placeholder="Имя" 
+                        required
+                    />
+                    <label for="surname"></label>
+                    <input 
+                        type="text" 
+                        name="surname" 
+                        id="surname"
+                        placeholder="Фамилия" 
+                        required
+                    />
+                </div>
+                <div>
+                    <label for="email"></label>
+                    <input 
+                        type="email" 
+                        name="email" 
+                        id="email"
+                        placeholder="Email"
+                        required 
+                    />
+                </div>
+                <button>Зарегистрироваться</button>
+                <div>
+                    <input 
+                        type="checkbox" 
+                        name="agree" 
+                        id="agree" 
+                    />
+                    <label for="agree">Я прочитал и принимаю</label>
+                    <a href="#">Условия использования</a>
+                </div>
+            </form>
+    </main>
+</body>
+</html>

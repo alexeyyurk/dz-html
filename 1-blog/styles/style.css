@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #374151; /*Временно*/
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+h1,
+p,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.header {
+    padding: 72px 180px;
+}
+
+.header a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 18px;
+}
+
+.logoIcon {
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 23px;
+    padding: 6px 12px;
+    background: #4B5563;
+    border-radius: 3px;
+    margin: 0 11px 0;
+}
+
+.header input {
+    border: none;
+    background-color: rgba(31, 41, 55, 0.6);
+    width: 224px;
+    border-radius: 100px;
+    padding: 9px 49px 12px;
+    font-size: inherit;
+    color: inherit;
+}
+
+.themedate {
+    font-size: 14px;
+    margin: 0 0 14px;
+}
+
+h1 {
+    font-size: 24px;
+    line-height: 38px;
+    width: 525px;
+    margin: 0 0 30px;
+}
+
+.author {
+    margin: 0 0 28px;
+}
+
+.authorAvatar {
+    width: 50px;
+    height: 50px;
+}
+
+.authorName {
+    line-height: 28px;
+}
+
+.authorProfession {
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.postImage {
+    margin: 0 0 69px;
+}
+
+.firstText {
+    font-size: 20px;
+    line-height: 32px;
+    margin: 0 0 30px;
+}
+
+.defaultText {
+    line-height: 30px;
+    margin: 0 0 30px;
+}
+
+.firstText, 
+.defaultText {
+    width: 708px;
+}
+
+.post p:last-child {
+    margin: 0;
+}
+
+footer {
+    line-height: 28px;
+    padding: 94px 0 77px;
+}
